@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1. connect JavaScript didalam <head> -->
+    <script>
+
+    </script>
+    <!-- 3. connect JavaScript didalam ExternalFile -->
+    <script src="index.js"></script>
+</head>
+<body>
+<button onclick="buttonSubmit()">Submit</button>
+<!-- Connect JavaScript di dalam <body> -->
+    
+    <p id="demo"></p>
+    <!--2. connect JavaScript didalam <body>  -->
+    <script>
+        //2. innerHTML()
+        document.getElementById("demo").innerHTML = 2+3;
+        alert("Masukkan nama dan alamat Gmail anda");
+        confirm("Apakah anda yakin ingin meninggalan halaman?");
+
+       // document.getElementById("demo").innerHTML = 2+3;
+
+       // prompt("Masukkan nama anda :");
+
+
+        let name= prompt("Masukkan nama anda:");
+        document.write ("Nama saya adalah :" + name);
+    </script>
+</body>
+</html>
